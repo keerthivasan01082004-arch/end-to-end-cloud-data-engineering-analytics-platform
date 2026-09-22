@@ -1,4 +1,4 @@
-# AWS End-to-End Data Engineering Pipeline
+# End-to-End Cloud Data Engineering & Analytics Platform
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
 ![PySpark](https://img.shields.io/badge/PySpark-BigData-red)
@@ -132,15 +132,3 @@ docs/
 - Real-Time Streaming using Kafka
 
 ---
-
-## Author
-
-Rahul Patel
-
-Senior Data Engineer
-
-LinkedIn:
-https://www.linkedin.com/in/rahul-patel-data-engineer/
-
-Portfolio:
-https://rahul-patel321.github.io/RahulPatelAnalyst.github.io/
