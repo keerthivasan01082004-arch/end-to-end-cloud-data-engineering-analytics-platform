@@ -15,6 +15,16 @@ The solution follows a modern Medallion Architecture (Bronze, Silver, Gold) and 
 
 The primary objective is to convert raw business data into analytics-ready datasets that support reporting and business intelligence.
 
+## Medallion Architecture
+
+The platform organizes data into three progressively refined layers:
+
+- **Bronze — Raw data:** Original e-commerce files are ingested into Amazon S3 with their source structure preserved. This layer provides an auditable landing zone for reprocessing and traceability.
+- **Silver — Cleaned and validated data:** AWS Glue and PySpark standardize schemas, clean records, handle data-quality issues, and apply business transformations.
+- **Gold — Analytics-ready data:** Curated datasets are modeled for reporting and loaded into Amazon Redshift and Amazon Athena, where they support SQL analysis and Power BI dashboards.
+
+This layered approach separates ingestion from transformation and consumption, making the pipeline easier to maintain, validate, scale, and extend.
+
 ---
 
 ## Architecture
